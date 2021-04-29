@@ -1,0 +1,35 @@
+/nav {
+  background: #fff; 
+  border-bottom: 1px solid #dbdbdb;
+  height: 70px;
+}
+
+nav a:hover {
+  color: #ff0000;
+  border-bottom: 2px solid #FD3A13;
+}
+
+nav li.active a{
+  color: #ff0000; 
+  border-bottom: 2px solid #FD3A13; 
+}
+
+.text-time{
+  color: #ff0000; 
+  font-weight: 600;
+}
+
+.card {
+  height: 340px;
+  margin-bottom: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container-fluid {
+  background-color: pink;
+  padding: 50px 10px 50px 10px;
+  margin-top: 20px;
+}
