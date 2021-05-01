@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BootStrap Website for Darkpony</title>
+  <!-- Latest compiled and minified Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="mycss2.css">
+  <script src="myjs.js" defer></script>
+</head>
+
+<body>
+
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <img src="logo.jpg" alt="" width="50" height="34" >
+	    <a class="navbar-brand" href="#">LA Photography</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#aboutus">About Us</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#articles">Articles</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#videos">My Videos</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#videos">Contact</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#videos">Quotes</a> </li>
+          </ul>
+         
+        </div>
+      </div>
+    </nav>
+  </section>
+
+
+  <section>
+    <div class="container">
+      <!-- Carousel -->
+      <div class="row" id="carousel">
+        <div class="col-md-12">
+            <div class="d-flex justify-content-center">
+              <div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="4500">
+              <div class="carousel-indicators">
+             <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
+             <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+             <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+              </div>
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img class="d-block w-100" src="images/carousel/1.jpeg" alt="First slide">
+             </div>
+             <div class="carousel-item">
+               <img class="d-block w-100" src="images/carousel/2.jpeg" alt="Second slide">
+             </div>
+             <div class="carousel-item">
+               <img class="d-block w-100" src="images/carousel/3.jpeg" alt="Third slide">
+             </div>
+           </div>
+           <button class="carousel-control-prev" data-bs-target="#carouselExample" type="button" data-bs-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Previous</span>
+           </button>
+           <button class="carousel-control-next" data-bs-target="#carouselExample" type="button" data-bs-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Next</span>
+           </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- About Us -->
+      <div class="row mt-5" id="aboutus">
+        <p class="text-center fs-2">Minimalism</p>
+        <p class="text-center fs-4 fw-light"> A BootStrap demonstration for Darkpony</p>
+        <p class="text-md-center fs-6 lh-1">In a few words, this is a demonstration of my abilities, 
+          regarding web development. I didn't really know what else to right, so I choosed to place some
+          text from Darkpony Website. Here it is: </br>Darkpony was established by a team of passionate people,
+           aiming to provide high quality Internet services. Our motto <b>“Think.Design.Create.Promote”</b> signifies our approach,
+            towards our customers to promote their products or services on the Internet.
+          One of the biggest company advantages is human resources. The highly qualified personnel 
+          and its commitment to the business goals has played an important role in ours company's successful course. </p>
+      </div>
+    
+      <!-- Article list -->
+      <div class="row mt-5" id="articles">
+        <div class="col-md-6">
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Python Is More Popular Than Ever</h5>
+                <small>3 days ago</small>
+              </div>
+              <p class="mb-1">Despite a rocky transition from Python 2 to Python 3,
+              </br>developers are still flocking to the programming language.</p>
+              <small>Source: wired.com</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+              <!-- <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Phones in African Schools</h5>
+                <small>10 days ago</small>
+              </div>
+              <p class="mb-1">Mobile phones offer a new way for Africa’s students to learn programming</p>
+              <small>Source: theconversation.com</small> -->
+              <div class="card bg-dark text-white">
+                <img src="images/articles/africa.jpeg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Smartphones in African Schools</h5>
+                  <p class="card-text">Mobile phones offer a new way for Africa’s students to learn programming</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          
+        </div>
+      </div>
+
+      <!-- Music Videos -->
+      
+      <div class="row mt-5" id="videos">
+        <p class="text-center fs-4">Two of my favorite songs</p>
+        <div class="col-lg-6">
+          <div class="d-flex justify-content-center">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="videos/alkinoos.mp4" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+          <div class="d-flex justify-content-center">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="videos/maheritsas.mp4" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="row mt-5" id="contact">
+        <p class="text-center fs-4">Contact Information</p>
+        <div class="d-flex justify-content-center">
+          <table class="table table-bordered ">
+            <tbody>
+              <tr>
+                <th scope="row">Name</th>
+                <td>Leonidas Achilleos</td>
+              </tr>
+              <tr>
+                <th scope="row">Mobile</th>
+                <td>96196460</td>
+              </tr>
+              <tr>
+                <th scope="row">Email</th>
+                <td colspan="3">lacman05@gmail.com</td>
+              </tr>
+              <tr>
+                <th scope="row">Working Hours</th>
+                <td>8:00 - 16:00, monday to friday</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Quotes List -->
+      <div id="quotes" class="mt-5">
+        <p class="text-center fs-4">A few of my favourite quotes</p>
+        <div class="d-flex">
+          <ul class="list-group list-group-flush" id="quotesli">
+            <div class="justify-content-center">
+              <li class="list-group-item">“Get busy living or get busy dying.”</li>
+              <li class="list-group-item">"If you think lifting is dangerous, try being weak. Being weak is dangerous."</li>
+              <li class="list-group-item">“Beware of little expenses; a small leak will sink a great ship.”</li>
+              <li class="list-group-item">“Dogs’ lives are too short. Their only fault, really.”</li>
+              <li class="list-group-item">"Testing leads to failure, and failure leads to understanding."</li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section>
+    <div class="d-flex footer align-items-center mt-5">
+      <div class="flex-shrink-0">
+        <img src="logo.jpg" alt="Generic placeholder image" width="100" height="80">
+      </div>
+      <div class="flex-grow-1 ms-3">
+        Copyrights are owned by Leonidas Achilleos.
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+
+</html>
